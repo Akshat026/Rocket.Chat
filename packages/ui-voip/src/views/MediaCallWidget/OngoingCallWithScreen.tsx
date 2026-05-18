@@ -21,6 +21,7 @@ import {
 } from '../../components';
 import { useMediaCallInstance } from '../../context';
 import { useMediaCallView } from '../../context/MediaCallViewContext';
+import AppActions from '../../experimental/AppActionButtons/components/AppActions';
 import { usePlayMediaStream } from '../../providers/usePlayMediaStream';
 import { isExternalPeer } from '../../utils/isExternalPeer';
 
@@ -129,6 +130,7 @@ const OngoingCall = () => {
 			</WidgetContent>
 			<WidgetInfo slots={slots} />
 			<WidgetFooter>
+				<AppActions />
 				<ButtonGroup large align='center'>
 					<ToggleButton label={t('Mute')} icons={['mic', 'mic-off']} titles={[t('Mute'), t('Unmute')]} pressed={muted} onToggle={onMute} />
 
