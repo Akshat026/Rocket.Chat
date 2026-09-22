@@ -11197,7 +11197,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@rocket.chat/storybook-dark-mode@workspace:^, @rocket.chat/storybook-dark-mode@workspace:packages/storybook-dark-mode, @rocket.chat/storybook-dark-mode@workspace:~":
+"@rocket.chat/storybook-dark-mode@npm:~4.2.1, @rocket.chat/storybook-dark-mode@workspace:^, @rocket.chat/storybook-dark-mode@workspace:packages/storybook-dark-mode, @rocket.chat/storybook-dark-mode@workspace:~":
   version: 0.0.0-use.local
   resolution: "@rocket.chat/storybook-dark-mode@workspace:packages/storybook-dark-mode"
   dependencies:
