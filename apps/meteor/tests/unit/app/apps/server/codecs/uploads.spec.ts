@@ -4,7 +4,7 @@ import { beforeEach, describe, it } from 'mocha';
 import sinon from 'sinon';
 import * as z from 'zod';
 
-import { createUploadsCodec } from '../../../../../../app/apps/server/converters/codecs/uploads';
+import { createUploadsCodec } from '../../../../../../server/lib/apps/converters/codecs/uploads';
 
 const sandbox = sinon.createSandbox();
 

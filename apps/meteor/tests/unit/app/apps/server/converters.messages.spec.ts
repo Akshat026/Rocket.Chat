@@ -4,7 +4,7 @@ import { beforeEach, describe, it } from 'mocha';
 import proxyquire from 'proxyquire';
 import sinon from 'sinon';
 
-import { convertMessageFiles } from '../../../../../app/apps/server/converters/convertMessageFiles';
+import { convertMessageFiles } from '../../../../../server/lib/apps/converters/convertMessageFiles';
 
 const sandbox = sinon.createSandbox();
 

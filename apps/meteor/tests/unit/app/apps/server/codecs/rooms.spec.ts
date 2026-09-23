@@ -18,7 +18,7 @@ const models = {
 
 const { appRoomToRocketChat, decodeRoomRaw, createRoomCodec } = proxyquire
 	.noCallThru()
-	.load('../../../../../../app/apps/server/converters/codecs/rooms', {
+	.load('../../../../../../server/lib/apps/converters/codecs/rooms', {
 		'@rocket.chat/models': models,
 	});
 

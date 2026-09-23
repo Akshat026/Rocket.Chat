@@ -2,7 +2,7 @@ import { expect } from 'chai';
 import { describe, it } from 'mocha';
 import * as z from 'zod';
 
-import { SettingCodec } from '../../../../../../app/apps/server/converters/codecs/settings';
+import { SettingCodec } from '../../../../../../server/lib/apps/converters/codecs/settings';
 
 describe('SettingCodec', () => {
 	it('refuses to convert an Apps-Engine setting back into a Rocket.Chat setting', () => {
