@@ -9645,11 +9645,8 @@ __metadata:
   dependencies:
     "@rocket.chat/fuselage": "npm:^0.92.0"
     "@rocket.chat/fuselage-hooks": "npm:^0.43.1"
-    "@rocket.chat/fuselage-tokens": "npm:^0.35.0"
     "@rocket.chat/jest-presets": "workspace:~"
-    "@rocket.chat/layout": "npm:~0.36.3"
     "@rocket.chat/storybook-config": "workspace:~"
-    "@rocket.chat/storybook-dark-mode": "npm:~4.2.1"
     "@rocket.chat/styled": "npm:~0.34.1"
     "@rocket.chat/tsconfig": "workspace:~"
     "@testing-library/dom": "npm:~10.4.1"
@@ -11195,7 +11192,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@rocket.chat/storybook-dark-mode@npm:~4.2.1, @rocket.chat/storybook-dark-mode@workspace:^, @rocket.chat/storybook-dark-mode@workspace:packages/storybook-dark-mode, @rocket.chat/storybook-dark-mode@workspace:~":
+"@rocket.chat/storybook-dark-mode@workspace:^, @rocket.chat/storybook-dark-mode@workspace:packages/storybook-dark-mode, @rocket.chat/storybook-dark-mode@workspace:~":
   version: 0.0.0-use.local
   resolution: "@rocket.chat/storybook-dark-mode@workspace:packages/storybook-dark-mode"
   dependencies:
