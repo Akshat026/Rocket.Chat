@@ -53,7 +53,6 @@ export type ExchangeContactPhone = {
 
 export type ExchangeContactEmail = {
 	address: string;
-	label?: string;
 };
 
 export type ExchangeContactUpsert = {
@@ -64,8 +63,10 @@ export type ExchangeContactUpsert = {
 	givenName?: string;
 	surname?: string;
 	companyName?: string;
+	officeLocation?: string;
 	emails: ExchangeContactEmail[];
 	phones: ExchangeContactPhone[];
+	categories: string[];
 };
 
 export type ExchangeContactDeletion = {
@@ -75,6 +76,12 @@ export type ExchangeContactDeletion = {
 };
 
 export type ExchangeContact = ExchangeContactUpsert | ExchangeContactDeletion;
+
+export type ExchangeContactPhoto = {
+	data: Uint8Array;
+	contentType: string;
+	externalId: string;
+};
 
 export type ContactFolder = {
 	id: string;
