@@ -9639,20 +9639,42 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rocket.chat/fuselage-toastbar@npm:~0.36.1":
-  version: 0.36.1
-  resolution: "@rocket.chat/fuselage-toastbar@npm:0.36.1"
+"@rocket.chat/fuselage-toastbar@workspace:^, @rocket.chat/fuselage-toastbar@workspace:packages/fuselage-toastbar":
+  version: 0.0.0-use.local
+  resolution: "@rocket.chat/fuselage-toastbar@workspace:packages/fuselage-toastbar"
   dependencies:
+    "@rocket.chat/fuselage": "npm:^0.92.0"
+    "@rocket.chat/fuselage-hooks": "npm:^0.43.1"
+    "@rocket.chat/fuselage-tokens": "npm:^0.35.0"
+    "@rocket.chat/jest-presets": "workspace:~"
+    "@rocket.chat/layout": "npm:~0.36.3"
+    "@rocket.chat/storybook-config": "workspace:~"
+    "@rocket.chat/storybook-dark-mode": "npm:~4.2.1"
+    "@rocket.chat/styled": "npm:~0.34.1"
+    "@rocket.chat/tsconfig": "workspace:~"
+    "@testing-library/dom": "npm:~10.4.1"
+    "@testing-library/jest-dom": "npm:~6.8.0"
+    "@testing-library/react": "npm:~16.3.3"
+    "@testing-library/user-event": "npm:~14.6.6"
+    "@types/react": "npm:~19.2.18"
+    "@types/react-dom": "npm:~19.2.5"
+    eslint: "npm:~9.39.5"
+    jest: "npm:~30.2.0"
+    jest-environment-jsdom: "npm:~30.2.0"
+    react: "npm:~19.2.8"
+    react-dom: "npm:~19.2.8"
     react-timing-hooks: "npm:~5.2.0"
+    storybook: "npm:~9.1.20"
+    ts-jest: "npm:~29.4.12"
+    typescript: "npm:~5.9.3"
   peerDependencies:
     "@rocket.chat/fuselage": "*"
     "@rocket.chat/fuselage-hooks": "*"
     "@rocket.chat/styled": "*"
     react: "*"
     react-dom: "*"
-  checksum: 10/a5bb9fe5d2b3105b1268690fc096de1f2b1a037ba29309371979ac75909828e6dd348465bc7c5d34541ad9f7e3b4ba3e480d4a714df4028ef404e7fb5c378c22
-  languageName: node
-  linkType: hard
+  languageName: unknown
+  linkType: soft
 
 "@rocket.chat/fuselage-tokens@npm:^0.35.0":
   version: 0.35.0
@@ -10210,7 +10232,7 @@ __metadata:
     "@rocket.chat/fuselage": "npm:^0.92.0"
     "@rocket.chat/fuselage-forms": "npm:~1.5.1"
     "@rocket.chat/fuselage-hooks": "npm:^0.43.1"
-    "@rocket.chat/fuselage-toastbar": "npm:~0.36.1"
+    "@rocket.chat/fuselage-toastbar": "workspace:^"
     "@rocket.chat/fuselage-tokens": "npm:^0.35.0"
     "@rocket.chat/fuselage-ui-kit": "workspace:^"
     "@rocket.chat/gazzodown": "workspace:^"
@@ -11174,7 +11196,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@rocket.chat/storybook-dark-mode@workspace:^, @rocket.chat/storybook-dark-mode@workspace:packages/storybook-dark-mode, @rocket.chat/storybook-dark-mode@workspace:~":
+"@rocket.chat/storybook-dark-mode@npm:~4.2.1, @rocket.chat/storybook-dark-mode@workspace:^, @rocket.chat/storybook-dark-mode@workspace:packages/storybook-dark-mode, @rocket.chat/storybook-dark-mode@workspace:~":
   version: 0.0.0-use.local
   resolution: "@rocket.chat/storybook-dark-mode@workspace:packages/storybook-dark-mode"
   dependencies:
@@ -11652,7 +11674,7 @@ __metadata:
     "@rocket.chat/emitter": "workspace:~"
     "@rocket.chat/fuselage": "npm:^0.92.0"
     "@rocket.chat/fuselage-hooks": "npm:^0.43.1"
-    "@rocket.chat/fuselage-toastbar": "npm:~0.36.1"
+    "@rocket.chat/fuselage-toastbar": "workspace:^"
     "@rocket.chat/fuselage-tokens": "npm:^0.35.0"
     "@rocket.chat/fuselage-ui-kit": "workspace:~"
     "@rocket.chat/icons": "npm:^0.50.0"
